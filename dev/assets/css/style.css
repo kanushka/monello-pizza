@@ -2843,7 +2843,7 @@ table img{
   padding: 80px 80px 50px;
 }
 .ct-category::before{
-  content: '\f130';
+  content: '\f10b';
   font-family: flaticon;
   position: absolute;
   bottom: -30px;
