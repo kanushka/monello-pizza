@@ -2402,6 +2402,10 @@ table img{
   margin-left: 10px;
   color: #515151;
 }
+.now-price{
+  text-decoration: none !important;
+  color: #515151 !important;
+}
 .banner-nav-item-inner .banner-nav-item-body span{
   font-weight: 600;
   -webkit-transition: .3s;
