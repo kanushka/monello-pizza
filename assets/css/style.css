@@ -3034,11 +3034,11 @@ table img{
   opacity: 0;
   visibility: hidden;
 }
-.ct-ig-item:hover::before{
+/* .ct-ig-item:hover::before{
   opacity: 1;
   visibility: visible;
   top: 50%;
-}
+} */
 
 /* 6.7. Info Boxes */
 .ct-info-box{
