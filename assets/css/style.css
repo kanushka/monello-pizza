@@ -116,6 +116,9 @@ Version: 1.0.0
 /*======================
 1.0. General
 ========================*/
+.sm-hide{
+  display: block;
+}
 
 .ct-preloader{
   position: fixed;
@@ -4988,7 +4991,6 @@ td.quantity{
 }
 
 @media (max-width: 768px){
-
   h1{
     font-size: 34px;
     line-height: 42px;
@@ -5292,4 +5294,13 @@ td.quantity{
     width: 200px;
   }
 
+}
+
+@media only screen and (max-width: 600px) {
+  .sm-hide {
+    display: none !important;
+  }
+  .ct-mini-menu-top h5{
+    max-width: 140px;
+  }
 }
