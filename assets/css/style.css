@@ -4214,7 +4214,7 @@ td.quantity{
   margin-bottom: 30px;
 }
 .product .product-body{
-  background-color: #f9f9f9;
+  background-color: #363636;
   border-radius: 8px;
   -webkit-box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
           box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
@@ -4250,6 +4250,9 @@ td.quantity{
 .product .product-desc h4 a:hover{
   color: #FCCC4C;
 }
+.product .product-desc ul{
+  line-height: 12px;
+}
 .product p{
   margin-bottom: 20px;
 }
@@ -4259,8 +4262,10 @@ td.quantity{
   border-top: 1px solid rgba(0,0,0,.1);
 }
 .product .product-price{
-  font-weight: 700;
-  color: #cfcfc4;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffe357;
   margin: 0;
   border: 1px solid rgba(0,0,0,.1);
   display: inline-block;
